@@ -12,7 +12,7 @@ function Home() {
   const [moviesData, setMoviesData] = useState([]);
 
   useEffect(() => {
-    fetch('back-endmoviz-cul6abp90-oliverstask.vercel.app/movies')
+    fetch('https://back-endmoviz-cul6abp90-oliverstask.vercel.app/movies')
     
     .then(response => response.json())
     .then(data => { console.log(data)
